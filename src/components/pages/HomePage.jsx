@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
         <h1 className={`text-4xl md:text-5xl font-bold mb-4 `}>
-        Hi, I'm Aaron Packer
+        Hi, I'm Samuel
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">
         Full Stack Software Engineer
