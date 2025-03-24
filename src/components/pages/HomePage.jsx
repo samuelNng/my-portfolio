@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -20,10 +20,13 @@ function HomePage() {
         >
             View My Work
         </button>
-        <button
+        <Link to="/contact">
+        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:bg-indigo-500"
         >
+          
             Contact Me
         </button>
+        </Link>
         </div>
     </div>
   );
